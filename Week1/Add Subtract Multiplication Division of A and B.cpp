@@ -4,11 +4,9 @@ Input
 Line 1 contains 2 integers a and b (1 <= a,b <= 1000)
 Output
 Write a+b, a-b, a*b, a/b  (4 integers are separated by a SPACE characters)
-
 Example
 Input
 9 4
-
 Output 
 13 5 36 2*/
 //C++ 
@@ -16,7 +14,7 @@ Output
 using namespace std;
 int main() 
 { 
-      int a,b;
-      cin>>a>>b;
-      cout<<a+b<<" "<<a-b<<" "<<a*b<<" "<<a/b;
+      int a,b; //them hai so
+      cin>>a>>b; //nhap hai so
+      cout<<a+b<<" "<<a-b<<" "<<a*b<<" "<<a/b;//in ra tong, hieu, tich, thuong cac so cach nhau boi dau cach
 }
