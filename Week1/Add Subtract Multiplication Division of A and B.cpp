@@ -14,7 +14,7 @@ Output
 using namespace std;
 int main() 
 { 
-      int a,b; //them hai so
-      cin>>a>>b; //nhap hai so
-      cout<<a+b<<" "<<a-b<<" "<<a*b<<" "<<a/b;//in ra tong, hieu, tich, thuong cac so cach nhau boi dau cach
+      int a,b; 
+      cin>>a>>b; 
+      cout<<a+b<<" "<<a-b<<" "<<a*b<<" "<<a/b;//print the result after add, substract, multiple and divide a to b
 }
